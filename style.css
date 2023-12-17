@@ -1,0 +1,79 @@
+body {
+    background-image: url('sea-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-color: #a49696; }
+   
+      nav.navbar.bg-light.custom-navbar {
+          background-color: #8ad610 !important;
+      } 
+      .search-bar {
+        margin-left: auto; /* This pushes the search bar to the right */
+      }
+      h1.text-center.mb-4 {
+      color: #c42020; 
+      font-weight: bold; 
+      background-color: rgb(250, 219, 21);
+    }
+  
+      .first-section {
+          background-color: #9ba95ffa; 
+          padding: 20px; 
+      }
+      .first-section:hover { 
+        transform: scale(1.05);
+      }
+      .product-card {
+          border: 3px solid #60806f; 
+          padding: 15px; 
+          margin-bottom: 15px; /* Add margin between cards */
+      }
+      .product-card:hover {
+          transform: scale(1.05);
+      }
+      .banner-section {
+        background-color: #7ec2b1;
+        padding: 20px;
+        transition: transform 0.3s ease-in-out;
+      }
+  
+      .banner-section:hover {
+        transform: scale(1.05);
+      }
+      
+      .image-container {
+        position: relative;
+        text-align: center;
+        color: white; 
+      }
+      .image-container:hover{
+        transform: scale(1.05);
+      }
+  
+      .image-container img {
+        width: 100%; 
+        height: auto; /* Maintain aspect ratio */
+        display: block; 
+      }
+  
+      .text-over-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px; 
+        font-weight: bold; 
+       
+      }
+      .product-1:hover{
+        transform: scale(1.1);
+      }
+      .icon :hover{
+        transform: scale(1.05);
+      }
+      h6:hover {
+        color: red;
+        font-weight: bold;
+        
+      }
